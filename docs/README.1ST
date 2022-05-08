@@ -1,0 +1,101 @@
+*****************************************************************
+**															   **
+** DETH 4.12 is an experimental revision of code (beta test)   **
+**															   **
+**      Bugs still exist and exceptions are possible		   **
+**			BACKUP your wad, save often!					   **
+**															   **
+*****************************************************************
+
+IMPORTANT NOTE:
+
+DETH v4.01 and later runs in a Win'95 FULL-SCREEN Dos Window. Start a
+DOS Window and press Alt-Enter to switch it to full screen if it
+isn't already, then run DETH. Win'95 does not support SVGA
+resolutions in DOS Windows with many Win'95 video drivers, and may
+TERMINATE such a task if you attempt to run it in a window on the
+desktop, which can lose your edits! For the same reason, do not run
+background processes like the Internet that can post notification
+messages like Disconnect to the desktop - as this can switch you to
+desktop mode and lose your edits! It is no longer necessary to run
+from MS-DOS mode and reboot to Win'95 afterwards, but it is safer.
+
+---------------------------------------------------------------------------
+
+DETH v4.12 supports the extensions of the TNT BOOM engine fully. These
+include:
+
+1) All new linedefs types are available from the menus
+2) The new linedef flag PassThru for multiple switch activation is supported
+3) The new things, MT_PUSH (4001) and MT_PULL (4002) are supported
+4) The new thing flags "Not DM" and "Not Coop" are supported
+5) The generalized sector types for combined lighting, damage, secret,
+   ice/mud, and wind are supported.
+6) Flats added from the PWAD are supported.
+
+You need Boom set to True in DETH.INI to enable these extensions.
+
+---------------------------------------------------------------------------
+
+Files included in DETH412.ZIP (beta version):
+
+readme.1st      - this file
+install.txt		- basic instructions for installing and starting DETH
+changes.txt     - history of versions complete with bugs removed and additions
+deth.exe        - the main executable for DOOM II
+deth.ini        - initialization file, contains options for using DETH
+go32-v2.exe     - new v2 dos extender / memory info tool
+csdpmi3b.zip	- DJGPP DPMI platform for DOS users without one
+
+texture.txt     - information on how our Intelligent Texture Aligning works
+copying         - Copyright stuff for GNU GCC
+copying.dj      - go32-v2.exe Copyright information
+keys.txt	    - guide to all keys, inc new hotkeys
+
+doom2.cfg       - configuration file for Doom 2 includes path to main IWAD
+doom.cfg        - configuration file for Doom includes path to main IWAD
+common.cfg	    - configuration file for all, containing Things, and Specials
+
+--------------------------------------------------------------------------------
+
+From the authors:
+
+DETH 4.12 is a port of DETH 3.92 from DJGPP v1 to v2 with several bug
+fixes thrown in (see changes.txt). The work is being done by Jim
+Flynn. 
+
+We also thank Antony for his support for our work on these sources.
+
+-----------------------------------------------------------------------------
+
+DETH is a version of GCC DEU 5.21 with a few features borrowed from 5.3.
+It has been written by wad editors, so the features we've added and changed
+should reflect what a wad creator both needs and requires.
+
+It now edits HEXEN, as well as DOOM II, DOOM, Ultimate DOOM, and HERETIC.
+
+WARNING - unless you are absolutely sure what you are doing, do not change any
+part of the config files except the [wad] entry, except where otherwise 
+instructed.
+
+
+Thanks to:
+
+id and Raven soft for 3 excellent games.
+Brendon J Wyber and Raphael Quinet for the original, first, and best DEU.
+Marc Rousseau for permission to include his excellent ZenNode nodes builder,
+and BSPInfo v1.0 (for determining the efficiency of different nodes builders).
+John W. Anderson (aka Dr Sleep) and Jim F. Flynn for all of their suggestions,
+  patience, and bug hunting.
+Everyone currently using and supporting DETH.
+
+
+If you have any suggestion for future releases or have any bugs to report then
+you can reach me at 100765,3240@compuserve.com or just leave a message in
+the ACTION forum of CompuServe.
+
+
+Antony Burden.
+
+-----------------------------------------------------------------------------
+
